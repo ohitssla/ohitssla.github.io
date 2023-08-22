@@ -1,0 +1,53 @@
+h2
+    {
+    font-family: "Yu Gothic", Helvetica,sans-serif;
+    color: rgb(131,113,127);
+    
+
+    }
+
+h1
+    {
+        font-family: "Yu Gothic";
+        font-weight: bold;
+        color:rgb(131,113,127); 
+    }
+
+#about_me{
+    left: 211px;
+    top: 200px;
+    position: absolute;
+    overflow: visible;
+    width: 263px;
+
+}
+
+#misc {
+    left: 211px;
+    top: 400px;
+    position: absolute;
+    overflow: visible;
+    width: 253px;
+    height: 65px;
+
+}
+
+#projects{
+    left: 211px;
+    top: 600px;
+    position: absolute;
+    overflow: visible;
+    width: 251px;
+
+}
+
+#introduction{
+    left: 1210px;
+    top: 350px;
+    position: absolute;
+    overflow: visible;
+    width: 1000px;
+
+}
+
+
