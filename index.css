@@ -14,8 +14,8 @@ h1
     }
 
 #about_me{
-    left: 200px;
-    top: 200px;
+    left: 100px;
+    top: 100px;
     position: absolute;
     overflow: visible;
     width: 263px;
@@ -23,8 +23,8 @@ h1
 }
 
 #misc {
-    left: 200px;
-    top: 400px;
+    left: 100px;
+    top: 225px;
     position: absolute;
     overflow: visible;
     width: 253px;
@@ -33,8 +33,8 @@ h1
 }
 
 #projects{
-    left: 200px;
-    top: 600px;
+    left: 100px;
+    top: 350px;
     position: absolute;
     overflow: visible;
     width: 251px;
@@ -42,12 +42,37 @@ h1
 }
 
 #introduction{
-    left: 1000px;
-    top: 350px;
+    left: 600px;
+    top: 135px;
     position: absolute;
     overflow: visible;
     width: 1000px;
 
 }
 
+.triangle{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 150px solid rgb(131,113,127);
+    border-left: 1024px solid transparent;
 
+
+}
+
+.triangle-bottom{
+    position: absolute;
+    bottom: 0;
+    
+    border-bottom: 150px solid rgb(131,113,127);
+    border-left: 1024px solid transparent;
+
+
+
+}
+
+.background{
+
+    color:beige
+
+}
