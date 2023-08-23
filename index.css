@@ -42,8 +42,9 @@ h1
 }
 
 #introduction{
-    left: 600px;
+    left: 1000px;
     top: 135px;
+    
     position: absolute;
     overflow: visible;
     width: 1000px;
@@ -52,10 +53,10 @@ h1
 
 .triangle{
     position: absolute;
-    height: 0;
-    width: 0;
+    top:0;
+    right: 0;
     border-top: 150px solid rgb(131,113,127);
-    border-left: 1024px solid transparent;
+    border-left: 1920px solid transparent;
 
 
 }
@@ -63,9 +64,9 @@ h1
 .triangle-bottom{
     position: absolute;
     bottom: 0;
-    
+    right: 0;
     border-bottom: 150px solid rgb(131,113,127);
-    border-left: 1024px solid transparent;
+    border-left: 1920px solid transparent;
 
 
 
@@ -73,6 +74,6 @@ h1
 
 .background{
 
-    color:beige
+    color:rgb(107, 107, 66)
 
 }
