@@ -42,8 +42,8 @@ body{
 }
 
 .welcome-box{
-    min-height: 450px;
-    min-width: 450px;
+    min-height: 350px;
+    min-width: 350px;
     position: relative;
     background-color: #EFB6B6;
 }
@@ -77,12 +77,12 @@ body{
 
 }
 
-.welcome h1{
+.welcome{
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #AA0A0A;
-    font-size: 500%;
+    font-size: 225%;
 }
 
 /* fix this later */
@@ -92,19 +92,20 @@ body{
     height: 100%;
 }
 
-.path, .container-1{
-  position: relative;
-  width: 100%;
-
+.path{
+    z-index: 7;
+    width: 100%;
 }
 
 .container-1{
-    top:50%;
     z-index: 0;
     color: #AA0A0A;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: #EFB6B6;
+    padding-top:10%;
+    padding-bottom:10%;
 }
 
 .about-me{
@@ -113,15 +114,27 @@ body{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #AA0A0A;
+    z-index: 7;
 }
 .blurb{
     font-weight: bold;
+    z-index: 5;
 }
 
 .projects{
-    font-size: 300%;
+    font-size: 250%;
     color: transparent;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #AA0A0A;
+}
+
+.box{
+    position: absolute;
+    bottom: -100px;
+    width: 30%;
+    height: 60%;
+    background-color: #F8DCE9;
+    right: 0;
+    z-index: 0;
 }
